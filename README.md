@@ -123,18 +123,6 @@ Key constants in `bark_session_logger.py` can be adjusted to suit your environme
 | `RECORD_DURATION` | `240` | Length of WAV recording saved per session (seconds) |
 | `RECORD_INTERVAL` | `3600` | Minimum time between WAV recordings (seconds) |
 
-## Sample output
-
-The `samples/` folder contains examples of the files this project generates:
-
-| File | Description |
-|---|---|
-| `samples/bark_log_sample.txt` | Example daily log file |
-| `samples/bark_diary_sample.txt` | Example diary summary |
-| `samples/bark_heatmap_sample.png` | Example heatmap by day and hour |
-| `samples/bark_daily_totals_sample.png` | Example daily totals bar chart |
-| `samples/bark_waveform_sample.png` | Example waveform image from a bark recording |
-
 ## Output files
 
 | File | Description |
