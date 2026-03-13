@@ -1,0 +1,8 @@
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+*.wav
+bark_log_2*.txt
+*.h5
+desktop.ini

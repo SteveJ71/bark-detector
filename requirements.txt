@@ -1,0 +1,7 @@
+sounddevice
+numpy
+tensorflow>=2.16
+tensorflow-hub
+soundfile
+matplotlib
+setuptools<81
