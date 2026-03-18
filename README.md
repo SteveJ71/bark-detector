@@ -23,7 +23,7 @@ A Python tool for real-time dog bark detection and logging using the [YAMNet](ht
 
 ## Requirements
 
-- Python 3.10–3.13 (TensorFlow does not yet support Python 3.14+)
+- Python 3.10–3.12 (TensorFlow does not yet support Python 3.13+)
 - A working microphone
 - Git
 - ffmpeg (see below)
@@ -57,14 +57,19 @@ TensorFlow requires this to be installed on Windows. If you see a DLL load error
 ```bash
 git clone https://github.com/SteveJ71/bark-detector.git
 cd bark-detector
-python -m venv .venv
+py -3.12 -m venv .venv
 ```
 
 Then activate the virtual environment by typing the following directly in your terminal (this is a terminal command, not a Python command).
 
+Check which terminal you are using — in VS Code look at the dropdown in the top right of the terminal panel:
+
 ```bash
-# Windows (Command Prompt / VS Code terminal)
+# Windows Command Prompt (cmd)
 .venv\Scripts\activate
+
+# Windows PowerShell
+.\.venv\Scripts\Activate.ps1
 
 # Mac / Linux
 source .venv/bin/activate
