@@ -58,13 +58,21 @@ TensorFlow requires this to be installed on Windows. If you see a DLL load error
 git clone https://github.com/SteveJ71/bark-detector.git
 cd bark-detector
 python -m venv .venv
+```
 
-# Windows
+Then activate the virtual environment by typing the following directly in your terminal (this is a terminal command, not a Python command).
+
+```bash
+# Windows (Command Prompt / VS Code terminal)
 .venv\Scripts\activate
 
 # Mac / Linux
 source .venv/bin/activate
+```
 
+Your terminal prompt will change to show `(.venv)` once active. Then install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
